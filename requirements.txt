@@ -2,3 +2,6 @@ streamlit
 langchain
 ollama
 langchain-ollama
+streamlit-audiorecorder
+speechrecognition
+gtts

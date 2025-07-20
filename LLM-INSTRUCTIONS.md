@@ -13,11 +13,11 @@ This project is a Streamlit web application that allows users to chat with local
 
 ## Core Functionality
 
-- **Model Selection:** The application fetches and displays a list of available Ollama models for the user to choose from.
-- **Persona Selection:** Users can choose from a list of predefined personas or provide a custom system prompt.
-- **Temperature Control:** Users can adjust the temperature of the LLM to control the randomness of the responses.
+- **Model Selection:** The application fetches and displays a list of available Ollama models for the user to choose from in the sidebar.
+- **Persona and System Prompt:** Users can select from a list of predefined personas via a dropdown in the sidebar. The selected persona populates a text area for the system prompt, which can be further customized. The conversation resets if the system prompt is changed.
+- **Temperature Control:** Users can adjust the temperature of the LLM in the sidebar to control the randomness of the responses.
 - **Chat Interface:** It provides a chat interface where users can input prompts and receive responses from the selected LLM.
-- **Conversation History:** The chat history is maintained within the session, and can be cleared.
+- **Conversation History:** The chat history is maintained within the session, and can be cleared via a button in the sidebar.
 - **Performance Metrics:** The application displays the time taken to generate a response, the number of tokens, and the tokens per second (TPS).
 
 ## File Structure
